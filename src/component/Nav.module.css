@@ -1,0 +1,27 @@
+nav {
+  @apply bg-white z-20 m-0 px-[1rem] md:px-[6.25rem]   py-2  shadow-md fixed  top-0 right-0 left-0;
+}
+
+.nav__bar {
+  @apply flex justify-between items-center;
+}
+
+.logo__box {
+  @apply flex items-baseline;
+}
+
+.logo__text {
+  @apply font-main text-2xl  font-normal cursor-pointer  no-underline text-primary;
+}
+
+.nav__link {
+  @apply hidden  md:list-none md:font-main md:font-medium md:opacity-75 md:flex text-center items-center py-4;
+}
+
+li a {
+  @apply text-sm font-medium no-underline px-4 py-6 text-primary  transition duration-150 md:hover:border-solid border-l  border-gray-200 hover:text-red  hover:border-b-4 hover:border-b-red;
+}
+
+.menu {
+  @apply h-6 w-6  md:hidden cursor-pointer text-primary;
+}
