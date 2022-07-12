@@ -19,7 +19,12 @@ module.exports = {
           100: "#1DA1F2",
           200: "rgba(29, 161, 242, 0.75)",
         },
-        red: "#E13833",
+        "text-red": "#E13833",
+      },
+
+      backgroundImage: {
+        "cover-pic": "url('/public/img/profile-main.png')",
+        "linear-gradient": "linear-gradient(to right, #1DA1F2, 15%, #FFFF)",
       },
     },
   },

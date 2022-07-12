@@ -19,7 +19,7 @@ nav {
 }
 
 li a {
-  @apply text-sm font-medium no-underline px-4 py-6 text-primary  transition duration-150 md:hover:border-solid border-l  border-gray-200 hover:text-red  hover:border-b-4 hover:border-b-red;
+  @apply text-sm font-medium no-underline px-4 py-6 text-primary  transition duration-150 md:hover:border-solid border-l  border-gray-200 hover:text-text-red  hover:border-b-4 hover:border-b-text-red;
 }
 
 .menu {

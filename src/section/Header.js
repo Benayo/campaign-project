@@ -1,5 +1,7 @@
+import Hero from "../component/Hero";
+
 const Header = () => {
-  return <Header />;
+  return <Hero />;
 };
 
 export default Header;
